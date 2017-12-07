@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/chart/chart",
+    "pages/indexlist/indexlist",
+    "pages/form/form",
+    "pages/jointime/jointime",
+    "pages/classcontent/classcontent"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "聚首",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "今日打卡",
+      "iconPath": "icons/clock.png",
+      "selectedIconPath": "icons/clock-active.png"
+    },{
+      "pagePath": "pages/personcenter/personcenter",
+      "text": "我的",
+      "iconPath": "icons/myself.png",
+      "selectedIconPath": "icons/myself-active.png"
+    }],
+    "color": "#666",
+    "borderStyle": "white",
+    "selectedColor": "#48AAE5",
+    "backgroundColor": "#fff",
+    "position": "bottom"
+  }
+}
